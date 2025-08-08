@@ -1,4 +1,6 @@
 # draculaish-ha-theme
+
+### This is a fork of [malcolmturnbull](https://github.com/malcolmturnbull/draculaish-ha-theme) Draculaish theme, due to inactive, i am trying to keep this theme updated.
 Dracula-Inspired Theme for Home Assistant, Built on the Catppuccin template (and color names) and with a light mode inspired by Dracula.min for VSCode. 
 
 ![image](https://github.com/malcolmturnbull/draculaish-ha-theme/assets/8454281/5fa1f4c9-fee1-4f03-b838-d9f1fa692580)
