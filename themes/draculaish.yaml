@@ -1,4 +1,4 @@
-####################### DRACULA-ISH THEMES V.1.0 ################
+####################### DRACULA-ISH THEMES V.0.8 ################
 ##
 ## A hybrid of Dracula and Catpuccin Styles -
 ## Colours inspired by: Catpuccin, Dracula themes.
@@ -266,65 +266,53 @@ Draculaish:
   mush-rgb-state-climate-idle: var(--mush-rgb-grey);
   mush-rgb-state-climate-off: var(--mush-rgb-disabled);
   
-  ha-color-primary-0:  '#282A36'   # Nästan svart, basfärg i Dracula-temat
-  ha-color-primary-1:  '#44475A'   # Mörkgrå, lämplig för bakgrunder
-  ha-color-primary-20: '#6272A4'   # Dämpad blå-grå
-  ha-color-primary-30: '#BD93F9'   # Huvudlila i Dracula-temat
-  ha-color-primary-40: '#BD93F9'   # Den primära lila färgen (Dracula-lila)
-  ha-color-primary-50: '#BF8FFB'   # En aning ljusare lila
-  ha-color-primary-60: '#D5B8FE'   # Ljus lila för ljusa element
-  ha-color-primary-70: '#E6DFFD'   # Mycket ljus lila, nästan vit
-  ha-color-primary-80: '#F0F0FF'   # Ljuslila nyans
-  ha-color-primary-90: '#F8F8FF'   # Nästan vit med en lila ton 
-  ha-color-primary-95: '#FBFAFF'   # Vit med en mycket svag lila ton
-  
-  ha-color-neutral-05: '#282A36'   # Mörkgrå basfärg
-  ha-color-neutral-10: '#383A4A'   # Mellanmörkgrå, för bakgrunder
-  ha-color-neutral-20: '#44475A'   # Mörkgrå, för UI-element
-  ha-color-neutral-30: '#6272A4'   # Dämpad grå-blå ton
-  ha-color-neutral-40: '#7F8FA4'   # Ljusare grå
-  ha-color-neutral-50: '#A4B4C4'   # Ljusgrå
-  ha-color-neutral-60: '#BCC6D4'   # Lätt grå
-  ha-color-neutral-70: '#D0D6E0'   # Mycket ljust grå
-  ha-color-neutral-80: '#E6E9F0'   # Nästan vit
-  ha-color-neutral-90: '#F1F3F8'   # Blek, nästan vit
-  ha-color-neutral-95: '#F9FAFD'   # Off-white
-  
-  ha-color-orange-05: '#282A36'   # Mörkgrå bas
-  ha-color-orange-10: '#44475A'   # Mörkgrå
-  ha-color-orange-20: '#FFB86C'   # En aning mörkare orange
-  ha-color-orange-30: '#FFB86C'   # Dracula-temats orange accentfärg
-  ha-color-orange-40: '#FFC884'   # Ljusare orange
-  ha-color-orange-50: '#FFD79E'   # Mellanljus orange
-  ha-color-orange-60: '#FFE4B6'   # Ljus orange
-  ha-color-orange-70: '#FFF1D0'   # Mycket ljus orange
-  ha-color-orange-80: '#FFF7E2'   # Nästan vit-orange
-  ha-color-orange-90: '#FFFBF1'   # Blek, nästan vit
-  ha-color-orange-95: '#FFFDF9'   # Nästan vit med en hint av orange
-  
-  ha-color-red-05: '#282A36'   # Mörkgrå bas
-  ha-color-red-10: '#44475A'   # Mörkgrå
-  ha-color-red-20: '#FF5555'   # En aning mörkare röd
-  ha-color-red-30: '#FF5555'   # Den ikoniska röda färgen i Dracula-temat
-  ha-color-red-40: '#FF6F6F'   # Ljusare röd
-  ha-color-red-50: '#FF8A8A'   # Mellanljus röd
-  ha-color-red-60: '#FFA0A0'   # Ljus röd
-  ha-color-red-70: '#FFB8B8'   # Mycket ljus röd
-  ha-color-red-80: '#FFD2D2'   # Nästan vit-röd
-  ha-color-red-90: '#FFE5E5'   # Blek, nästan vit
-  ha-color-red-95: '#FFF1F1'   # Nästan vit med en rödaktig ton
-  
-  ha-color-green-05: '#282A36'   # Mörkgrå bas, som i Dracula-temat
-  ha-color-green-10: '#44475A'   # Mellanmörkgrå, för bakgrunder
-  ha-color-green-20: '#50fa7b'   # En aning mörkare grön
-  ha-color-green-30: '#50fa7b'   # Huvudfärgen för grönt (Dracula-grön)
-  ha-color-green-40: '#5afb7f'   # Ljusare grön nyans
-  ha-color-green-50: '#69fc8d'   # Mellanljus grön
-  ha-color-green-60: '#87fd9e'   # Ljus grön
-  ha-color-green-70: '#a5fecf'   # Mycket ljus grön
-  ha-color-green-80: '#d1ffe3'   # Mycket ljus, nästan vitgrön
-  ha-color-green-90: '#e5fff2'   # En blek, nästan vit grön ton
-  ha-color-green-95: '#f4fffb'   # Nästan vit med en aning grön färg
+  ha-color-primary-05: '#282A36'
+  ha-color-primary-10: '#44475A'
+  ha-color-primary-20: '#6272A4'
+  ha-color-primary-30: '#BD93F9'
+  ha-color-primary-40: '#BD93F9'
+  ha-color-primary-50: '#BF8FFB'
+  ha-color-primary-60: '#D5B8FE'
+  ha-color-primary-70: '#E6DFFD'
+  ha-color-primary-80: '#F0F0FF'
+  ha-color-primary-90: '#F8F8FF'
+  ha-color-primary-95: '#FBFAFF'
+
+  ha-color-neutral-05: '#282A36'
+  ha-color-neutral-10: '#383A4A'
+  ha-color-neutral-20: '#44475A'
+  ha-color-neutral-30: '#6272A4'
+  ha-color-neutral-40: '#7F8FA4'
+  ha-color-neutral-50: '#A4B4C4'
+  ha-color-neutral-60: '#BCC6D4'
+  ha-color-neutral-70: '#D0D6E0'
+  ha-color-neutral-80: '#E6E9F0'
+  ha-color-neutral-90: '#F1F3F8'
+  ha-color-neutral-95: '#F9FAFD'
+
+  ha-color-red-05: '#282A36'
+  ha-color-red-10: '#44475A'
+  ha-color-red-20: '#FF5555'
+  ha-color-red-30: '#FF5555'
+  ha-color-red-40: '#FF6F6F'
+  ha-color-red-50: '#FF8A8A'
+  ha-color-red-60: '#FFA0A0'
+  ha-color-red-70: '#FFB8B8'
+  ha-color-red-80: '#FFD2D2'
+  ha-color-red-90: '#FFE5E5'
+  ha-color-red-95: '#FFF1F1'
+
+  ha-color-green-05: '#282A36'
+  ha-color-green-10: '#44475A'
+  ha-color-green-20: '#50FA7B'
+  ha-color-green-30: '#50FA7B'
+  ha-color-green-40: '#5AFB7F'
+  ha-color-green-50: '#69FC8D'
+  ha-color-green-60: '#87FD9E'
+  ha-color-green-70: '#A5FECF'
+  ha-color-green-80: '#D1FFE3'
+  ha-color-green-90: '#E5FFF2'
+  ha-color-green-95: '#F4FFFB'
 
   modes:
     light:
